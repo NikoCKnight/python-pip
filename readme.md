@@ -17,3 +17,14 @@ source env_ppt/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
 ```
+
+# Web Server
+
+```sh
+git clone
+cd web-server
+python3 -m venv env_server
+source env_server/bin/activate
+pip install -r requirements.txt
+python3 main.py
+```
